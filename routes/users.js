@@ -16,7 +16,7 @@ router.get('/', async (req, res,) => {
 
 
 //new users route
-router.get('/new', (req, res,) => {
+router.get('/new', async (req, res,) => {
     res.render('users/new', {user: new User()})
 })
 
