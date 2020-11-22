@@ -50,4 +50,4 @@ app.use('/users', userRouter)
 app.use('/infos', infoRouter)
 //app.use(express.json())
 
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 4000)
